@@ -1,0 +1,2555 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/vendor.min.css">
+    <link rel="stylesheet" href="css/main.min.css">
+    <link rel="stylesheet" href="widget/cbk.css">
+    <link rel="stylesheet" href="css/modal.css">
+    <title>SVCLIMAT-№1 в Гомеле</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/icon-x">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css" rel="stylesheet" type="text/css" />
+	<meta property="og:type" content="website">
+	<meta property="og:site_name" content="svclimat.by">
+	<meta property="og:title" content="Продажа и установка кондиционеров">
+	<meta property="og:description" content="Продажа, установка и Ремонт кондиционеров в Гомеле">
+	<meta name="Keywords" content="Кондиционеры, ремонт кондиционеров, установка, продажа, монтаж."> 
+    <meta property="og:url" content="https://svclimat.by/">
+	<meta property="og:locale" content="ru_RU">
+	<meta property="og:image" content="img/photos/beko.jpg">
+	
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-216320181-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-216320181-1');
+</script>
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript" >
+   (function(m,e,t,r,i,k,a){m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
+   m[i].l=1*new Date();k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)})
+   (window, document, "script", "https://mc.yandex.ru/metrika/tag.js", "ym");
+
+   ym(86409137, "init", {
+        clickmap:true,
+        trackLinks:true,
+        accurateTrackBounce:true,
+        webvisor:true,
+        trackHash:true,
+        ecommerce:"dataLayer"
+   });
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/86409137" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+
+<script src="//web.it-center.by/nw" defer async></script> 
+<!-- <script src="js/modal.js"></script> -->
+
+</head>
+<body>
+    <div id="app">
+        <header class="header">
+            <div class="container">
+                <div class="header__container">
+                    <div class="header-logo">
+                        <img class="header-logo__logo lazy" data-src="img/logo.png" alt="">
+                        <p class="header-logo__desc">Продажа и установка <br> кондиционеров</p>
+                    </div>
+                    <p class="header-contacts__phone11"><nobr><a href="tel:+375296099988">+375 (29) 609-99-88</a></nobr></p>
+                    <div class="header-about">
+                        <img class="header-about__picture lazy" data-src="img/header/.png" alt="">
+                        <p class="header-about__number">523</p>
+                        <p class="header-about__desc">Установили<br> за последний год</p>
+                    </div>
+                    <div class="header-contacts">
+                        <div class="header-contacts__col header-contacts__col_left">
+                            <div class="header-socials">
+                                <a class="header-socials__tel" href="https://telegram.me/Remservice_by" target="_blank"></a>
+                                <a class="header-socials__phone" href="viber://chat?number=375296099988" target="_blank"></a>
+                                <a class="header-socials__whatsapp" href="https://wa.me/375296099988" target="_blank"></a>
+                            </div>
+                        </div>
+                        <div class="header-contacts__col header-contacts__col_right">
+                            <p class="header-contacts__phone"><nobr><a href="tel:+375296099988">+375 (29) 609-99-88</a></nobr></p>
+                            <p class="header-contacts__time">Ежедневно.</p>
+                        </div>
+                    </div>
+                    <div class="header__menu-open" v-on:click="isMenuOpened = !isMenuOpened"></div>
+                </div>
+            </div>
+            <div class="menu" v-bind:class="{'menu_opened': isMenuOpened}">
+                <div class="container">
+                    <ul class="menu-list">
+                        
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="posudomoyka.html">Посудомоечные машины</a>
+                        </div>
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="#promo" v-on:click="scrollTo('.promo', $event)">Главная</a>
+                        </div>
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="#do" v-on:click="scrollTo('.do', $event)">Наши услуги</a>
+                        </div>
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="#consultation" v-on:click="scrollTo('.consultation', $event)">Консультация</a>
+                        </div>
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="#reviews" v-on:click="scrollTo('.reviews', $event)">Отзывы</a>
+                        </div>
+                        <div class="menu-list__item">
+                            <a class="menu-list__item-link" href="#contacts" v-on:click="scrollTo('.contacts', $event)">Контакты</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <section id="promo" class="promo">
+            <div class="promo__bg"></div>
+            <div class="container">
+                <div class="promo__content">
+                    <p class="title title_white title_xl promo__title">Продажа и установка<br> кондиционеров <br> в <span class="title_blue">Гомеле</span></p>
+                    <p class="desc desc_m desc_white promo__desc">Современный кондиционер-наиболее <br> экономичный и эффективный способ обеспечить<br> комфортный микроклимат в доме или офисе</p>
+                    <div class="form-inner promo__form-inner">
+                        <div class="form-inner__content">
+                            <div class="form-inner__top">
+                                <p class="title title_blue-2 title_m">Рассчитаем точную стоимость</p>
+                                <p class="desc desc_blue-2 desc_m form-inner__desc">со скидкой <b>5%</b> прямо сейчас,<br> просто оставьте заявку</p>
+                                <form action="mail.php" method="POST">
+                                    <div class="form__field">
+                                        <div class="custom-form-mob">
+                                            <div class="custom-form-mob__item">
+                                                <a href="tel:+375296099988">
+                                                    <label class="custom-form-mob__label" for="mobileApp00">
+                                                        <span class="custom-form-mob__icon custom-form-mob__icon_phone icon-phone"></span>Телефон
+                                                    </label>
+                                                </a>
+                                            </div>
+                                            <div class="custom-form-mob__item">
+                                                <a href="viber://chat?number=375296099988">
+                                                    <label class="custom-form-mob__label" for="mobileApp01">
+                                                        <span class="custom-form-mob__icon custom-form-mob__icon_viber icon-viber"></span>Viber
+                                                    </label>
+                                                </a>
+                                            </div>
+                                            <div class="custom-form-mob__item">
+                                                <a href="https://wa.me/375296099988">
+                                                    <label class="custom-form-mob__label" for="mobileApp02">
+                                                        <span class="custom-form-mob__icon custom-form-mob__icon_whatsapp icon-whatsapp"></span>WhatsApp
+                                                    </label>
+                                                </a>
+                                            </div>
+                                            <div class="custom-form-mob__item">
+                                                <a href="https://telegram.me/Remservice_by">
+                                                    <label class="custom-form-mob__label" for="mobileApp03">
+                                                        <span class="custom-form-mob__icon custom-form-mob__icon_telegram icon-telegram"></span>Telegram
+                                                    </label>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <input class="form__input" type="text" placeholder="+375 (__) ___-__-__" name="user_phone">
+                                    </div>
+                                    <div class="form__field">
+                                        <button class="btn btn_green btn_l form__submit" type="submit">
+                                            <span class="btn__blik"></span>
+                                            Узнать стоимость
+                                        </button>
+                                        <div class="form__policy">
+                                            <input class="form__radio" v-bind:type="'checkbox'" v-bind:id="'radio-1'" v-model="form.promo.checkbox">
+                                            <label class="form__radio-label" v-bind:for="'radio-1'">
+                                                <p class="form__policy-text">Я принимаю условия <span v-on:click="openPopup('policy', $event)">передачи информации</span></p>
+                                            </label>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="form-inner__bottom">
+                                <div class="form-contacts">
+                                    <p class="form-contacts__title">или позвоните нам: <span class="form-contacts__phone"><nobr><a href="tel:+375296099988">+375 (29) 609-99-88</a></nobr></span></p>
+                                    <p class="form-contacts__time">Работаем ежедневно.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="result" class="result">
+            <div class="container">
+                <p class="title title_center title_l">О компании</p>
+                <p class="desc desc_l desc_center"><span class="title_blue">SVCLIMAT</span> – климатическая компания полного цикла, специализирующаяся на разработке и реализации инженерных систем в области вентиляции и кондиционирования.
+
+                    SVCLIMAT
+                    
+                    Компания оказывает полный комплекс профессиональных услуг, начиная от разработки проекта, поставки оборудования, монтажных работ и заканчивая пуско-наладкой и вводом в эксплуатацию, а так же гарантийным и сервисным обслуживанием.
+                    
+                    Кроме оказания типовых услуг, мы решаем множество нестандартных задач, всё разнообразие которых невозможно свести к списку.</p>
+                <div class="result__inner-container">
+                    <div class="result__decor result__decor-1"></div>
+                    <div class="result__decor result__decor-2"></div>
+                    <div class="result__inner">
+                        <div class="result__inner-content">
+                            <div class="result__inner-col result__inner-col_left">
+                                <img class="result__picture lazy" src="img/result/img-1.png" style="width: 322px;" alt="">
+                            </div>
+                            <div class="result__inner-col result__inner-col_right">
+                                <div class="result__content">
+                                    <p><ul>
+                                        <li>7 лет <br>
+                                            Предоставляем услуги по продаже и установке кондиционеров</li>
+                                        <li>100 % <br>
+                                            Гарантия на кондиционеры в течении 7 лет после покупки и 5 лет гарантии на установку</li> 
+                                        <li>700 <br>
+                                            Реализованных объектов за время работы компании</li>
+                                        </ul></p>
+                                    <p>Это значит, что Вам не нужно будет тратить своё время и нервы.</p>
+                                    <p>Вы изначально будете знать смету по всем работам и эта цена не изменится.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="do" class="do">
+            <div class="container">
+                <p class="title title_center title_l">Наши услуги</p>
+                
+            </div>
+            <div class="container container_0">
+                <div class="do__items">
+                    <div class="do__item" v-on:click="openPopup('do-1', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-1.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">МОНТАЖ КОНДИЦИОНЕРОВ<span class="title_blue"></span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-2', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-2.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">ТЕХОБСЛУЖИВАНИЕ<span class="title_blue"></span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-3', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-3.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">РЕМОНТ КОНДИЦИОНЕРОВ<span class="title_blue"></span></p>
+                        </div>
+                    </div>
+                    <!-- <div class="do__item" v-on:click="openPopup('do-4', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-4.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не греет воду <span class="title_blue">от 17р.</span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-5', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-5.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не открывается люк <span class="title_blue">от 18р.</span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-6', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-6.png" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не сливает воду <span class="title_blue">от 17р.</span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-7', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-7.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не отжимает <span class="title_blue">от 17р.</span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-8', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-8.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не вращает барабан <span class="title_blue">от 23р.</span></p>
+                        </div>
+                    </div>
+                    <div class="do__item" v-on:click="openPopup('do-9', $event)">
+                        <div class="do__item-picture-container">
+                            <img class="do__item-picture lazy" data-src="img/do/img-9.jpg" alt="">
+                        </div>
+                        <div class="do__item-inner">
+                            <p class="do__item-title">Не включается <span class="title_blue">от 25р.</span></p>
+                        </div>
+                    </div> -->
+                    <div class="desc desc_center desc_ml"><i>*диагностика проводится <span class="title_blue">бесплатно </span>только в случае дальнейшего ремонта</i></div>
+                </div>
+            
+            </div>
+        </section>
+        <section id="contract" class="contract">
+            <div class="contract__contract"></div>
+            <div class="contract__decor contract__decor-1"></div>
+            <div class="contract__decor contract__decor-2"></div>
+            <div class="container">
+                <div class="contract__content">
+                    <p class="title title_l title_white contract__title"> У нас адекватные цены на <span class="title_blue">наши услуги</span></p>
+                    <div class="contract__inner">
+                        <div class="contract__inner-content">
+                            <p>Формирование стоимости наших услуг исключает из себя уровень спроса по сезонам и ценовой порог конкурентов. Вы не встретите у нас ни завышенных на 300% цен на сменные детали,  ни загадочных пунктов в чеке.</p>
+                            <p>Все работы проводятся официально.</p>
+                            <div class="contract__round">
+                                <div class="contract__round-text"></div>
+                                <div class="contract__round-letter"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="docs" class="docs">
+            <div class="container container_110">
+                <p class="title title_center title_l">Мы работаем с <span class="title_blue">кондиционерами </span> <br>всех известных фирм и моделей</p>
+                <p class="desc desc_l desc_center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis, saepe possimus aspernatur dolores mollitia non tempore excepturi exercitationem tempora aut voluptatem rem, ullam nisi deleniti nobis quae illum. Delectus eligendi sed minus, molestiae, ut ex fugit laboriosam nostrum nesciunt doloribus, odit reprehenderit doloremque consectetur perferendis.</p>
+                
+                <div class="docs__items">
+                    <div class="kegatudegenabled gadavuden">
+                        <div class="dongadevug">
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/1.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/2.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/3.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/4.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/5.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/6.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/7.png" alt=""></a>
+                            </div>
+
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/8.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/9.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/10.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/11.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/12.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/13.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/14.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/15.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/16.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/17.png" alt=""></a>
+                            </div>
+
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/18.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/19.png" alt=""></a>
+                            </div>
+                    
+                            <div class="sumbnag">
+                                <a href="/"><img src="img/1/20.png" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="questions" class="questions">
+            <div class="container">
+                <p class="title title_center title_white title_l">Каталог</p>
+                <!-- <div class="questions__cols">
+                    <div class="questions__col">
+                        <div class="questions__items"> -->
+                            <div id="cards">
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button data-modal class="btn btn_green btn_l form__submit" type="submit">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                    <button data-modal class="btn btn_green btn_l form__submit open_modal">
+                                        <span class="btn__blik"></span>
+                                        Заказать
+                                    </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="card">
+                                    <div class="poster">
+                                        <img src="img/product/conder.jpg" alt="conder">
+                                    </div>
+                                    <div class="title">
+                                        <h3>Cплит-система IGC Magic RAS/RAC-12AX</h3>
+                                    </div>
+                                    <div class="card_price">
+                                        <p>1020.00BYN</p>
+                                    </div>
+                                        <button data-modal class="btn btn_green btn_l form__submit open_modal" >
+                                            <span class="btn__blik"></span>
+                                            Заказать
+                                        </button>
+                                    <div class="questions__item">
+                                        <div class="questions__item-header">
+                                            <p class="questions__item-title">Характеристики</p>
+                                            <i class="questions__item-arrow"></i>
+                                        </div>
+                                        <div class="questions__item-body">
+                                            <p class="questions__item-answer"><div class="tab-pane mb-3" id="tab-specification">
+                                                <table class="table table-bordered">
+                                                                                    <tr>
+                                                        <td colspan="2" class="border-bottom bg-light"><strong></strong></td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Wi-fi управление</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внешний блок)</td>
+                                                        <td>25 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Вес (внутренний блок)</td>
+                                                        <td>10 кг</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внешнего блока)</td>
+                                                        <td>66 × 50 × 24 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Габаритный размер (внутреннего блока)</td>
+                                                        <td>80 × 30 × 19.7 см</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Гарантийный срок</td>
+                                                        <td>3 года</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр газовой магистрали, мм</td>
+                                                        <td>9.52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диаметр жидкой магистрали, мм</td>
+                                                        <td>6.35</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (обогрев), °C</td>
+                                                        <td>-7 — 24</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Диапазон температур наружного воздуха (охлаждение), °C</td>
+                                                        <td>16 — 43</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Инвертор</td>
+                                                        <td>Нет</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Класс энергетической эффективности (охлаждение/обогрев)</td>
+                                                        <td>A/A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Максимальная длина трассы</td>
+                                                        <td>15 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Модель кондиционера</td>
+                                                        <td>12 (до 40 м.кв)</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность обогрева</td>
+                                                        <td>3.75 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Мощность охлаждения</td>
+                                                        <td>3.62 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Название модели</td>
+                                                        <td>IGC Magic</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Перепад высот</td>
+                                                        <td>5 м</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Площадь помещения</td>
+                                                        <td>35 кв. м.</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (обогрев)</td>
+                                                        <td>1.01 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Потребляемая мощность (охлаждение)</td>
+                                                        <td>1.1 кВт</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Расход воздуха, куб. м/ч</td>
+                                                        <td>560</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Режим работы</td>
+                                                        <td>Охлаждение и обогрев</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна производителя</td>
+                                                        <td>Великобритания</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Страна сборки</td>
+                                                        <td>Китай</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внешний блок), Дб</td>
+                                                        <td>52</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Уровень шума (внутренний блок), Дб</td>
+                                                        <td>30</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Хладагент</td>
+                                                        <td>R 410A</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Цвет</td>
+                                                        <td>белый</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Электропитание</td>
+                                                        <td>220-240/1/50</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Бренд</td>
+                                                        <td>IGC</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Тип внутреннего блока</td>
+                                                        <td>Настенный</td>
+                                                    </tr>
+                                                                                    <tr>
+                                                        <td>Пульт дистанционного управления</td>
+                                                        <td>Да</td>
+                                                    </tr>
+                                                                                                                </table>
+                                            </div></p>
+        
+                                            <p class="questions__item-answer">На дому самое сложное, наверное, это замена подшипников. Просто потому, что это долго и хлопотно. По сути, разбирается вся машинка. Вертикалки и компактные приборы, вроде «Candy» или «Beko», тоже во многом не подарок для мастера, но это все, конечно, рабочие нюансы.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                                
+                                
+                            </div>
+
+                            <!-- <div class="questions__item">
+                                <div class="questions__item-header">
+                                    <p class="questions__item-title">Почему стиральная машина очень долго «думает» выполняя программу?</p>
+                                    <i class="questions__item-arrow"></i>
+                                </div>
+                                <div class="questions__item-body">
+                                    <p class="questions__item-answer">Это зависит только от индивидуальных особенностей модели. Скорее всего, здесь подразумевается стиральная машина «Ардо», «Канди» или «Вирпул» - яркие представители племени «тугодумов». Подчеркну, что это не показатель надежности или технологичности машинки! Это просто её особенность, не имеющая особого практического значения. Вот и все. </p>
+                                </div>
+                            </div>
+                            <div class="questions__item">
+                                <div class="questions__item-header">
+                                    <p class="questions__item-title">Вредны ли стиральной машине скачки напряжения? Не сломается ли машинка от низкого напряжения? </p>
+                                    <i class="questions__item-arrow"></i>
+                                </div>
+                                <div class="questions__item-body">
+                                    <p class="questions__item-answer">Очень вредны, особенно для современных машинок со слабыми модулями: Индезит, Аристон, Занусси, Веко и так далее. У них сразу выходит из строя электроника. Это если речь идет о незначительных скачках напряжения. При превышении значения напряжения в 242 В, любая машинка, будь то Mielle за 100 тысяч или Инезит за 6 тысяч, выйдет из строя. Причем, (внимание!) не важно работала в это время стиральная машина или нет! Если она было включена в сеть и в это время напряжение составило 243 В, например – получайте сгоревший модуль. Никаких предохранителей или устройств защиты на стиральных машинах не предусмотрено.</p>
+                                    <p class="questions__item-answer">На второй вопрос отвечу так: вредно или нет, никто не знает, но некоторые модели, LG или Electrolux, например, откажутся стирать при низком напряжении. </p>
+                                </div>
+                            </div>
+                            <div class="questions__item">
+                                <div class="questions__item-header">
+                                    <p class="questions__item-title">Можно ли отрегулировать блок управления самостоятельно?</p>
+                                    <i class="questions__item-arrow"></i>
+                                </div>
+                                <div class="questions__item-body">
+                                    <p class="questions__item-answer">Нет. Модуль, он же блок управления стиральной машины, можно только «перепрошить», то есть установить новую программу. Никакой регулировке он не подлежит, а прошивка выполняется только специалистом-электронщиком.  </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div> -->
+                    <!-- <div class="questions__col">
+                        <div class="questions__item">
+                            <div class="questions__item-header">
+                                <p class="questions__item-title">Где можно купить запчасти на стиральную машину и чем не оригинальные отличаются от оригинальных, кроме цены?</p>
+                                <i class="questions__item-arrow"></i>
+                            </div>
+                            <div class="questions__item-body">
+                                <p class="questions__item-answer">Качество. Это характерно не только для стиральных машин, а для всего. Что значить «оригинальные»? То, что деталь была изготовлена в строгом соответствии с технологией и прошла проверки качества на предприятии, которое имеет лицензию на производство этой самой детали. То есть все процессы находятся под постоянным контролем. Неоригинальные запчасти производятся непонятно где и кем, и непонятно по какой технологии. Никакой гарантии на то, что это будет работать или вообще подойдет, вам никто не даст. Поэтому я и не работаю с такими запчастями – виноват производитель, а коситься то будут на мастера поставившего запчасть.  </p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <div class="questions__item-header">
+                                <p class="questions__item-title">Что нужно сделать перед приездом мастера и нужно ли вытаскивать машинку из ванной?</p>
+                                <i class="questions__item-arrow"></i>
+                            </div>
+                            <div class="questions__item-body">
+                                <p class="questions__item-answer">Начну со второй части вопроса. Ответить на него однозначно и сразу не получится. Смотря, что сломалось и какая машинка. Скажу, что не стоит её трогать, если мастер не упомянул такую возможность. Во-первых, для диагностики нужно чтобы прибор был подключен ко всем сетям (водопровод, канализация, электричество). Во-вторых, возможно поломка пустяковая и сделать все на месте будет оптимальным выходом.
+                                    Что касается подготовки, я уже писал в определенном разделе, и повторюсь: убрать все с машинки и вокруг неё, а также приготовить чистую ветошь. Если на полу есть какой-то коврик – его тоже лучше убрать. Ну все. </p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <div class="questions__item-header">
+                                <p class="questions__item-title">Почему стиральная машина рвет вещи?</p>
+                                <i class="questions__item-arrow"></i>
+                            </div>
+                            <div class="questions__item-body">
+                                
+                                <p class="questions__item-answer">Как вариант – посторонний предмет. Булавка, небольшой гвоздь, саморез, проволока – все это частенько забывается в карманах и попадает в машинку. При стирке такие вещи вполне могут серьезно повредить белье. Ещё одна версия – ткань защемило между барабаном и манжетой. На некоторых машинках такая проблема встречается не редко.</p>
+                                <p class="questions__item-answer">Если ни один из озвученных вариантов не подходит, то есть смысл озадачить этим вопросом профессионала. Вполне возможно имеет место быть какой-либо дефект. </p>
+                            </div>
+                        </div>
+                        <div class="questions__item">
+                            <div class="questions__item-header">
+                                <p class="questions__item-title">Почему стиральная машина плохо отжимает белье и долго крутит барабан перед отжимом.</p>
+                                <i class="questions__item-arrow"></i>
+                            </div>
+                            <div class="questions__item-body">
+                                <p class="questions__item-answer">Это зависит от индивидуальных особенностей стиральной машины, характерной для той или иной марки, и связано с распределением белья в барабане. Например, машинки Samsung или LG будут пытаться равномерно распределить белье до тех пор, пока у них это не получится. Если вы стираете, например, чехлы от сидений автомобиля с вставками, то крутить барабан им придется очень долго. Многие другие машинки, не получив идеальной развесовки начинаю отжимать как есть. Что существенно упрощает дело, но вот как хорошо отжимает – вопрос другой.</p>
+                                <p class="questions__item-answer">Опять же понимаем, что не все материалы могут быть отжаты под воздействием центробежной силы одинаково хорошо. Поэтому может тут дело не в машинке, а в особенностях ткани.  </p>
+                            </div>
+                        </div>
+                    </div>  -->
+                </div>
+            </div>
+        </section> 
+       
+        <section id="consultation" class="consultation">
+            <div class="container">
+                <div class="consultation__decor consultation__decor-1"></div>
+                <div class="consultation__decor consultation__decor-2"></div>
+                <div class="consultation__container">
+                    <div class="consultation__col consultation__col_left">
+                        <p class="title title_l consultation__title">Получите подробную консультацию по телефону</p>
+                        <p class="desc desc_l consultation__desc">Скидка <span class="title_blue">5%</span> на монтаж при заявке с сайта</p>
+                        <div class="consultation-doc">
+                            <div class="consultation-doc__inner">
+                                <div class="consultation-doc__doc"></div>
+                                <div class="consultation-doc__content">
+                                    <p>Вызвать мастера можно в любой для вас день. Выезжаем в удобное для Вас время.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="consultation-person">
+                            <div class="consultation-person__inner">
+                                <p class="desc desc_m">Заполните контактную форму справа, специалист нашей компании свяжется с Вами в течение 10 минут</p>
+                                <div class="consultation-person__item">
+                                    <div class="consultation-person__item-col consultation-person__item-col_left">
+                                        <img class="consultation-person__item-picture lazy" data-src="img/consultation/person.jpg" alt="">
+                                    </div>
+                                    <div class="consultation-person__item-col consultation-person__item-col_right">
+                                        <p class="consultation-person__item-title">Иван Иванов</p>
+                                        <p class="consultation-person__item-desc">Менеджер svclimat.by</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="consultation__col consultation__col_right">
+                        <div class="form-inner consultation__form-inner">
+                            <div class="form-inner__content">
+                                <div class="form-inner__top">
+                                    <p class="title title_blue-2 title_m">Заполните форму и<br> мы Вам перезвоним</p>
+                                    <form action="mail.php" method="POST">
+                                        <div class="form__field">
+                                            <div class="custom-form-mob">
+                                                <div class="custom-form-mob__item">
+                                                    <a href="tel:+375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp00">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_phone icon-phone"></span>Телефон
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="viber://chat?number=375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp01">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_viber icon-viber"></span>Viber
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="https://wa.me/375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp02">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_whatsapp icon-whatsapp"></span>WhatsApp
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="https://telegram.me/Remservice_by">
+                                                        <label class="custom-form-mob__label" for="mobileApp03">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_telegram icon-telegram"></span>Telegram
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <input class="form__input" type="text" placeholder="+375 (__) ___-__-__" name="user_phone">
+                                        </div>
+                                        <div class="form__field">
+                                            <button class="btn btn_green btn_l form__submit" type="submit">
+                                                <span class="btn__blik"></span>
+                                                Узнать стоимость
+                                            </button>
+                                            <div class="form__policy">
+                                                <input class="form__radio" v-bind:type="'checkbox'" v-bind:id="'radio-1'" v-model="form.promo.checkbox">
+                                                <label class="form__radio-label" v-bind:for="'radio-1'">
+                                                    <p class="form__policy-text">Я принимаю условия <span v-on:click="openPopup('policy', $event)">передачи информации</span></p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="form-inner__bottom">
+                                    <div class="form-contacts">
+                                        <p class="form-contacts__title">или позвоните нам: <span class="form-contacts__phone"><nobr><a href="tel:+375296099988">+375 (29) 609-99-88</a></nobr></span></p>
+                                        <p class="form-contacts__time">Заявки принимаются круглосуточно</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="reviews" class="reviews">
+            <div class="container">
+                <p class="title title_center title_l title_white">Отзывы клиентов</p>
+                <div class="slider reviews-slider">
+                    <div class="reviews-slider__slide">
+                        <div class="reviews-item">
+                            <div class="reviews-item__inner">
+                                <div class="reviews-item__container">
+                                    <div class="reviews-item__col reviews-item__col_left">
+                                        <div class="slider reviews-photos">
+                                            <div class="reviews-photos__item">
+                                                <img class="reviews-photos__item-picture" src="img/reviews/img-1.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-item__col reviews-item__col_right">
+                                        <p class="title title_s">Плохо прокручивается барабан</p>
+                                        <div class="reviews-item__info">
+                                            <p class="reviews-item__info-title"><b>Выполненные работы:</b></p>
+                                            <ul class="reviews-item__list">
+                                                <li class="reviews-item__list-item">Специалист приехал в течении часа, быстро нашёл неполадку (в моей машинке был износ подшипника ,рессоры вообще не работали ,пробит был тен). Мастер предложил ремонт,но я решила заменить стиральную машину. Александр очень быстро справился с установкой нового аппарата,хотя в моей ванной тяжело добраться до слива и подключения воды.</li>
+                                                
+                                            </ul>
+                                            <p class="reviews-item__info-title"><b>Модель:</b> «Indesit» IWSB 5085</p>
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__slide">
+                        <div class="reviews-item">
+                            <div class="reviews-item__inner">
+                                <div class="reviews-item__container">
+                                    <div class="reviews-item__col reviews-item__col_left">
+                                        <div class="slider reviews-photos">
+                                            <div class="reviews-photos__item">
+                                                <img class="reviews-photos__item-picture" src="img/reviews/img-2.jpg" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-item__col reviews-item__col_right">
+                                        <p class="title title_s">Не набирает воду</p>
+                                        <div class="reviews-item__info">
+                                            <p class="reviews-item__info-title"><b>Выполненные работы:</b></p>
+                                            <ul class="reviews-item__list">
+                                                <li class="reviews-item__list-item">Порадовало все. Ещё по телефону мастер предположил возможную причину и расценил стоимость работы. Приехал мастер чуть раньше оговорённого времени, очень приятный, вежливый и аккуратный мастер. Машинка работает и, со слов мастера, ещё долго прослужит. Сделал все быстро, дал возможность убраться и помог установить машинку на место. С благодарностью за работу.</li>
+                                                
+                                            </ul>
+                                            
+                                            <p class="reviews-item__info-title"><b>Модель:</b> «ATLANT» СМА 50У102</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="reviews-slider__slide">
+                        <div class="reviews-item">
+                            <div class="reviews-item__inner">
+                                <div class="reviews-item__container">
+                                    <div class="reviews-item__col reviews-item__col_left">
+                                        <div class="slider reviews-photos">
+                                            <div class="reviews-photos__item">
+                                                <img class="reviews-photos__item-picture" src="img/reviews/img-2.png" alt="">
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="reviews-item__col reviews-item__col_right">
+                                        <p class="title title_s">Отремонтировать машину и подключить к стоку</p>
+                                        <div class="reviews-item__info">
+                                            <p class="reviews-item__info-title"><b>Выполненные работы:</b></p>
+                                            <ul class="reviews-item__list">
+                                                <li class="reviews-item__list-item">Все очень четко обьяснил, работу выполнил честно, без лишних накруток. Быстрее, чем ожидалось. Огромное спасибо!</li>
+                                               
+                                            </ul>
+                                            <p class="reviews-item__info-title"><b>Модель:</b> «LG» F1296NDS1</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <section id="consultation-3" class="consultation cost">
+            <div class="container">
+                <div class="consultation__decor consultation__decor-3"></div>
+                <div class="consultation__decor consultation__decor-2"></div>
+                <div class="consultation__container consultation__container_top">
+                    <div class="consultation__col consultation__col_left">
+                        <p class="title title_l consultation__title">Есть дополнительные вопросы?</p>
+                        <div class="consultation-person">
+                            <div class="consultation-person__inner">
+                                <p class="desc desc_m">Заполните контактную форму справа, специалист нашей компании свяжется с Вами в течение 10 минут</p>
+                                <div class="consultation-person__item">
+                                    <div class="consultation-person__item-col consultation-person__item-col_left">
+                                        <img class="consultation-person__item-picture lazy" data-src="img/consultation/person.jpg" alt="">
+                                    </div>
+                                    <div class="consultation-person__item-col consultation-person__item-col_right">
+                                        <p class="consultation-person__item-title">Иван Иванов</p>
+                                        <p class="consultation-person__item-desc">Менеджер компании </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="consultation__pool"></div>
+                    </div>
+                    <div class="consultation__col consultation__col_right">
+                        <div class="form-inner consultation__form-inner">
+                            <div class="form-inner__content">
+                                <div class="form-inner__top">
+                                    <p class="title title_blue-2 title_m">Заполните форму и<br> мы Вам перезвоним</p>
+                                    <form action="mail.php" method="POST">
+                                        <div class="form__field">
+                                            <input class="form__input" type="text" placeholder="Как Вас зовут?" name="user_name">
+                                        </div>
+                                        <div class="form__field">
+                                            <div class="custom-form-mob">
+                                                <div class="custom-form-mob__item">
+                                                    <a href="tel:+375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp00">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_phone icon-phone"></span>Телефон
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="viber://chat?number=375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp01">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_viber icon-viber"></span>Viber
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="https://wa.me/375296099988">
+                                                        <label class="custom-form-mob__label" for="mobileApp02">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_whatsapp icon-whatsapp"></span>WhatsApp
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                                <div class="custom-form-mob__item">
+                                                    <a href="https://telegram.me/Remservice_by">
+                                                        <label class="custom-form-mob__label" for="mobileApp23">
+                                                            <span class="custom-form-mob__icon custom-form-mob__icon_telegram icon-telegram"></span>Telegram
+                                                        </label>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                            <input class="form__input" type="text" placeholder="+375 (__) ___-__-__" name="user_phone">
+                                        </div>
+                                        <div class="form__field">
+                                            <button class="btn btn_green btn_l form__submit" type="submit">
+                                                <span class="btn__blik"></span>
+                                                Перезвоните мне
+                                            </button>
+                                            <div class="form__policy">
+                                                <input class="form__radio" v-bind:type="'checkbox'" v-bind:id="'radio-3'" v-model="form.questions.checkbox">
+                                                <label class="form__radio-label" v-bind:for="'radio-4'">
+                                                    <p class="form__policy-text">Я принимаю условия <span v-on:click="openPopup('policy', $event)">передачи информации</span></p>
+                                                </label>
+                                            </div>
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="form-inner__bottom">
+                                    <div class="form-contacts">
+                                        <p class="form-contacts__title">или позвоните нам: <span class="form-contacts__phone"><nobr><a href="tel:+375296099988">+375 (29) 609-99-88</a></nobr></span></p>
+                                        <p class="form-contacts__time">Заявки принимаются круглосуточно</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section id="contacts" class="contacts">
+            
+            <div class="contacts__inner">
+                <div class="contacts__map" id="contacts__map"><iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A175e162cecbfc7724faf8449d7ed7ed7cbf328dea8e771f80baf53b916c421f6&amp;source=constructor" width="100%" height="500" frameborder="0"></iframe>   </div>
+                <div class="container">
+                    <div class="contacts-inner">
+                        <div class="contacts-inner__content">
+                            <p class="title title_l">Контакты</p>
+                            <div class="contacts__items">
+                                <div class="contacts__item">
+                                    <p class="contacts__item-desc">Адрес офиса:</p>
+                                    <p class="contacts__item-title">Гомель, ул. Карповича, д.45</p>
+                                </div>
+                                <div class="contacts__item">
+                                    <p class="contacts__item-desc">Контактный телефон:</p>
+                                    <p class="contacts__item-title"><a href="tel:+375296099988">+375 (29) 609-99-88</a></p>
+                                    <div class="contacts-socials">
+                                        <a class="contacts-socials__item contacts-socials__item_tel" href="https://telegram.me/Remservice_by" target="_blank"></a>
+                                        <a class="contacts-socials__item contacts-socials__item_viber" href="viber://chat?number=375296099988" target="_blank"></a>
+                                        <a class="contacts-socials__item contacts-socials__item_whatsapp" href="send.html?phone=+375296099988" target="_blank"></a>
+                                    </div>
+                                </div>
+                                <div class="contacts__item">
+                                    <p class="contacts__item-desc">Реквизиты:</p>
+                                    <p class="contacts__item-title">УНП 111111111</p>
+                                </div>
+                                <div class="contacts__item">
+                                    <p class="contacts__item-desc">Почта:</p>
+                                    <p class="contacts__item-title"><a href="mailto:ip.holod@mail.ru">ip.holod@mail.ru</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__container">
+                    <div class="footer__logo">
+                        <img class="footer__logo-logo lazy" data-src="img/logo.jpg" alt="logo" style="width: 300px;">
+                    </div>
+                    <div class="footer__desc">
+                        <p>2022, <nobr>svclimat.by</nobr></p>
+                        <p class="footer__policy" v-on:click="openPopup('policy', $event)">Политика конфиденциальности</p>
+                    </div>
+                    <div class="footer-socials">
+                        <a class="footer-socials__item footer-socials__item_vk" href="#" target="_blank"></a>
+                        <a class="footer-socials__item footer-socials__item_instagram" href="https://www.instagram.com/mastersamolux/" target="_blank"></a>
+                        
+                    </div>
+                    <div class="footer-developer">
+                        <p class="footer-developer__name">Разработка сайта</p>
+                        <a class="footer-developer__link" href="#" target="_blank">ИП Шураев Д.А.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 yey">Не является публичной оффертой</div>
+        </footer>
+        <div class="popup popup-do popup-do-1">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Монтаж кондиционеров</p>
+                <div class="popup-policy__text">
+                    <p>Текст
+                       </p>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup-do popup-do-2">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Техобслуживание</p>
+                <div class="popup-policy__text">
+                    <p>
+                        Текст. </p>
+                </div>
+            </div>
+        </div>	
+        <div class="popup popup-do popup-do-3">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Ремонт кондиционеров</p>
+                <div class="popup-policy__text">
+                    <p>Текст.</p>
+                </div>
+            </div>
+        </div>	
+        <div class="popup popup-do popup-do-4">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не греет воду</p>
+                <div class="popup-policy__text">
+                    <p>Перегоревший нагревательный элемент – основная причина случаев сбоев в системе нагрева воды. Сам ТЭН представляет собой трубчатый элемент с корпусом из меди или нержавеющей стали, внутри которого расположена спираль из резистивного материала. Со временем на внешней поверхности образуется известковый налет, который постепенно уплотняется, нарушая теплообмен самого нагревателя. Как итог – перегорание спирали и выход ТЭНа из строя. Проблема легко решается заменой нагревательного элемента специалистом нашего сервисного центра. </p>
+                </div>
+            </div>
+        </div>	
+        <div class="popup popup-do popup-do-5">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не открывается люк</p>
+                <div class="popup-policy__text">
+                    <p>Если стиральная машинка не открывается, то причиной может быть вода, которая осталась в устройстве после окончания программы стирки. Отключение устройства от питания может помочь разблокировать систему. Основными поломками, в результате которых люк устройства не открывается, являются выход из строя системы автоматической блокировки дверцы, а также поломка ручки. Но все же бывают случаи, когда причина намного сложнее и выполнить ремонт самостоятельно затруднительно и в этом случае вы всегда можете обратиться в нашу фирму и заказать ремонт стиральной машины в Минске, мастера произведут ремонт максимально быстро и качественно.</p>
+                </div>
+            </div>
+        </div>	
+        <div class="popup popup-do popup-do-6">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не сливает воду</p>
+                <div class="popup-policy__text">
+                    <p>Стиральная машина самостоятельно не сливает воду по следующим причинам:<ul>
+                        <li>затор в канализационной трубе</li>
+                        <li>забился сливной шланг или фильтр</li>
+                        <li>в помпу попал посторонний предмет</li>
+                        <li>завоздушивание или выход из строя насоса</li>
+                        <li>снижение мощности насоса при длительной эксплуатации (вода не сливается при данной длине сливного шланга)</li>
+                        <li>поломка датчика уровня воды (прессостата)</li>
+                        <li>сбои в работе или поломка модуля управления (программатора)</li>
+
+                      </ul> 
+                      Оставьте заявку на ремонт в форме, либо позвоните. Мастер приедет в удобное для вас время и произведет ремонт стиральной машины и обязательно выпишет гарантию!
+                      </p>
+                </div>
+            </div>
+        </div>		
+        <div class="popup popup-do popup-do-7">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не отжимает</p>
+                <div class="popup-policy__text">
+                    <p>Если стиральная машина не отжимает, причины могут быть следующими:<ul>
+                        <li>неправильно выбранная программа</li>
+                        <li>перегруз или дисбаланс барабана</li>
+                        <li>отсутствие слива</li>
+                        <li>поломка таходатчика</li>
+                        <li>износ деталей двигателя</li>
+                        <li>поломка датчика уровня воды (прессостата)</li>
+                        <li>проблемы с блоком управления</li>
+
+                      </ul> 
+                      Оставьте заявку на ремонт в форме, либо позвоните. Мастер приедет в удобное для вас время и произведет ремонт стиральной машины и обязательно выпишет гарантию!
+                      </p>
+                </div>
+            </div>
+        </div>
+        <div class="popup popup-do popup-do-8">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не вращает барабан</p>
+                <div class="popup-policy__text">
+                    <p>В 20% случаев стиральная машинка не крутит барабан из-за проблем с приводным ремнём. Исключить эту причину можно, сняв заднюю крышку и проверив натяжение и целостность ремня Сломался таходатчик. Причиной того, что барабан не вращается, может быть неисправный таходатчик (или датчик Холла). Этот прибор отслеживает обороты двигателя стиральной машины и передаёт сигналы на электронную плату. Бывают случаи, когда выполнить ремонт самостоятельно затруднительно и в этом случае вы всегда можете обратиться в нашу фирму и заказать ремонт стиральной машины в Минске, мастера произведут ремонт максимально быстро и качественно.</p>
+                </div>
+            </div>
+        </div>	
+        <div class="popup popup-do popup-do-9">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Не включается</p>
+                <div class="popup-policy__text">
+                    <p>Причин, почему не включается стиральная машина, немало. К наиболее распространенным относятся:<ul>
+                        <li>повреждение сетевого кабеля</li>
+                        <li>отсутствие электроэнергии</li>
+                        <li>поломка кнопки включения</li>
+                        <li>нарушение работы контролирующего модуля</li>
+                        <li>неисправность блокирующей системы</li>
+                        <li>повреждение проводки внутри прибора</li>
+                        <li>поломка фильтра помех</li>
+
+                      </ul> 
+                      Оставьте заявку на ремонт в форме, либо позвоните. Мастер приедет в удобное для вас время и произведет ремонт стиральной машины и обязательно выпишет гарантию!
+                      </p>
+                </div>
+            </div>
+        </div>	
+        
+        <div class="popup popup-policy">
+            <div class="popup__content">
+                <p class="title title_m title_blue-2 popup__title">Политика конфиденциальности</p>
+                <div class="popup-policy__text">
+                    <p>Данная Политика конфиденциальности применима к данному Сайту. 
+                        После просмотра данного Сайта обязательно прочитайте текст, 
+                        содержащий политику конфиденциальности используемого сайта. 
+                        В случае несогласия с данной Политикой конфиденциальности прекратите 
+                        использование данного Сайта. Заполнив любую из форм и используя данный Сайт, 
+                        Вы тем самым выражаете согласие с условиями изложенной ниже Политики конфиденциальности. 
+                        Сайт охраняет конфиденциальность посетителей сайта. Персональная информация 
+                        Для того чтобы оказывать вам услуги, отвечать на вопросы, выполнять ваши пожелания 
+                        и требования требуется такая информация, как ваше имя и номер телефона. 
+                        САЙТ может использовать указанную информацию для ответов на запросы, 
+                        а также для связи с Вами по телефону с целью предоставления информации о 
+                        предлагаемых САЙТ услугах и рекламных кампаниях. При поступлении от вас обращения 
+                        в виде отправки любой заполненной на сайте формы САЙТ может потребоваться связаться 
+                        с Вами для получения дополнительной информации, необходимой для вашего обслуживания 
+                        и ответа на интересующие вопросы. САЙТ обязуется не передавать данную информацию 
+                        третьим лицам без Вашего разрешения, за исключением информации, необходимой для 
+                        выполнения вашего обслуживания. Со своей стороны, Вы предоставляете САЙТ право 
+                        использовать любую сообщѐнную Вами информацию для выполнения указанных выше действий.</p>
+                    <p><b>Безопасность</b><br>Передача персональных данных в любой форме 
+                        (лично, по телефону или через Интернет) всегда связана с определенным риском, 
+                        поскольку не существует абсолютно надежных (защищенных от злонамеренных посягательств) 
+                        систем, однако САЙТ принимает необходимые адекватные меры для минимизации риска и 
+                        предотвращения несанкционированного доступа, несанкционированного использования и 
+                        искажения Ваших персональных данных. Несовершеннолетние САЙТ не принимает никакой 
+                        информации от лиц моложе 18 лет без согласия их родителей или законных опекунов. 
+                        Кроме того, лица моложе 18 лет не могут совершать каких-либо покупок или иных 
+                        юридических действий на данном Сайте без согласия родителей или законных опекунов, 
+                        если это не допускается законодательством Республики Беларусь.</p>
+                    <p><b>Модификация</b><br>САЙТ имеет право изменять данную Политику конфиденциальности, 
+                        изменять и корректировать условия доступа или запрещать доступ к сайту, а также 
+                        изменять его содержание в любое время без предварительного уведомления.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Модальное окно -->
+    <div id="modal" class="modal bounceIn">
+        <div id="close_modal">+</div>
+        <div class="modal_txt">
+            <div class="form-inner__content">
+                <div class="form-inner__top">
+                            <p class="title title_blue-2 title_m">Заполните форму и<br> мы Вам перезвоним</p>
+                            <form action="mail.php" method="POST">
+                                <div class="form__field">
+                                    <input class="form__input" type="text" placeholder="Как Вас зовут?" name="user_name">
+                                </div>
+                        <div class="form__field">
+                            <div class="custom-form-mob">
+                                <div class="custom-form-mob__item">
+                                    <a href="tel:+375296099988">
+                                        <label class="custom-form-mob__label" for="mobileApp00">
+                                            <span class="custom-form-mob__icon custom-form-mob__icon_phone icon-phone"></span>Телефон
+                                        </label>
+                                     </a>
+                                </div>
+                                <div class="custom-form-mob__item">
+                                    <a href="viber://chat?number=375296099988">
+                                        <label class="custom-form-mob__label" for="mobileApp01">
+                                            <span class="custom-form-mob__icon custom-form-mob__icon_viber icon-viber"></span>Viber
+                                        </label>
+                                    </a>
+                                </div>
+                                <div class="custom-form-mob__item">
+                                    <a href="https://wa.me/375296099988">
+                                        <label class="custom-form-mob__label" for="mobileApp02">
+                                            <span class="custom-form-mob__icon custom-form-mob__icon_whatsapp icon-whatsapp"></span>WhatsApp
+                                        </label>
+                                    </a>
+                                </div>
+                                <div class="custom-form-mob__item">
+                                    <a href="https://telegram.me/Remservice_by">
+                                        <label class="custom-form-mob__label" for="mobileApp23">
+                                            <span class="custom-form-mob__icon custom-form-mob__icon_telegram icon-telegram"></span>Telegram
+                                        </label>
+                                     </a>
+                                </div>
+                            </div>
+                            <input class="form__input" type="text" placeholder="+375 (__) ___-__-__" name="user_phone">
+                        </div>
+                        <div class="form__field">
+                            <button class="btn btn_green btn_l form__submit" type="submit">
+                                <span class="btn__blik"></span>
+                                        Перезвоните мне
+                            </button>
+                        </div>
+                     </form>
+                </div>
+            </div>           
+        </div>
+    </div>
+    
+    
+    <script src="maps/api/js?key=AIzaSyCAgnnk8J9-NMvGjTkwahdeLw6AyhU4ic0"></script>
+    
+    <script src="js/vendor.min.js"></script>
+    <script src="js/main.min.js"></script>
+	
+
+
+    <script src='https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js'></script>
+
+
+        <!-- JS Модальное окно -->
+    <script> 
+        
+        let open_modal = document.querySelector('[data-modal]');
+        let close_modal = document.getElementById('close_modal');
+        let modal = document.getElementById('modal');
+        let body = document.getElementsByTagName('body')[0];
+        // for (let i = 0; i < open_modal.length; i++) 
+            open_modal.addEventListener('click', () => { 
+		        modal.classList.add('modal_vis'); 
+		        modal.classList.remove('bounceOutDown');
+		        body.classList.add('body_block');
+	        });
+	        
+        close_modal.onclick = function() { // клик на закрытие
+	        modal.classList.add('bounceOutDown'); // добавляем эффект закрытия
+            window.setTimeout(function() { // удаляем окно через полсекунды (чтобы увидеть эффект закрытия).
+		        modal.classList.remove('modal_vis'); 
+		        body.classList.remove('body_block'); // возвращаем прокрутку
+	        }, 500);
+}
+
+       
+
+    </script>
+    
+
+</body>
+</html>
